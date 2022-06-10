@@ -32,7 +32,7 @@ while True:
             else:
                 computer_option = "scissors"
         print("computer picked " + computer_option)
-        print(user_option + " against " + computer_option)
+        print("Player; " + user_option + ":" + "computer; " computer_option)
 
         if user_option == computer_option:
                 print("It's a tie!")
